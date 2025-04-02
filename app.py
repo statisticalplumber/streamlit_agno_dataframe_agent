@@ -17,7 +17,7 @@ MODEL_BASE_URL = "http://localhost:1234/v1"
 MODEL_API_KEY = "lm-studio"
 
 st.set_page_config(layout="wide", page_title="DataFrame Chat Agent")
-st.title("📊 Agent LLM")
+st.title("📊 DataFrame Agent: Chat, Visualize, and Analyze Data Using Agno")
 
 # Session state
 if "messages" not in st.session_state:
