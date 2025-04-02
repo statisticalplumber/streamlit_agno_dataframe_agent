@@ -6,7 +6,7 @@ import time
 from agno.agent import Agent
 from agno.models.openai import OpenAILike
 try:
-    from dataframe_tools import DataFrameTools
+    from dataframe_tool import DataFrameTools
 except ImportError:
     st.error("Missing DataFrameTools.")
     st.stop()
